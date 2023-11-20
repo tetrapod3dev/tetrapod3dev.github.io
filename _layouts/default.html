@@ -8,6 +8,35 @@
 {% include head.html %}
 
 <body>
+  <div class="wrapper h-wrapper">
+    <div class="sidebar-wrapper">
+
+      <div class="profile-container">
+    
+        {% if sidebar.avatar %}
+        <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+        {% endif %}
+    
+      </div><!--//profile-container-->
+
+    </div>
+
+    <div class="main-wrapper">
+
+      <div class="profile-container">
+    
+        {% if sidebar.name %}
+        <h1 class="name">{{ sidebar.name }}</h1>
+        {% endif %}
+    
+        {% if sidebar.tagline %}
+        <h3 class="tagline">{{ sidebar.tagline }}</h3>
+        {% endif %}
+    
+      </div><!--//profile-container-->
+
+    </div>
+  </div>
   <div class="wrapper">
     {% include sidebar.html %}
 
