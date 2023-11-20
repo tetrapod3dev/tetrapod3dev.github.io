@@ -61,15 +61,16 @@ p {
 }
 .b-wrapper .main-wrapper{
   position: relative;
-  ::after {
-    content: '';
-    position: absolute;
-    top: 5%;
-    left: 0;
-    height: 90%;
-    width: 1px;
-    background-color: black;
-  }
+}
+
+.b-wrapper .main-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 5%;
+  left: 0;
+  height: 90%;
+  width: 1px;
+  background-color: black;
 }
 
 .sidebar-wrapper {
