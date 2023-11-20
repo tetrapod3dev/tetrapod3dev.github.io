@@ -83,10 +83,10 @@ certifications:
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    # intro: >
+    #   You can list your side projects in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: LG Global CS Chatbot
         tagline: "2021년 3월부터 2023년 3월까지 LG Global의 고객 센터 챗봇을 17개 나라에 구축 및 유지보수했습니다. 글로벌 법인별 인공지능(A.I) 챗봇을 구축하여 현지 고객 문의 지원, 센터 안내, 상담원 연동 등을 위한 기능 개발했습니다."
