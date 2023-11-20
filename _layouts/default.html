@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<html lang="{{ page.lang | default: site.lang | default: 'ko' }}">
 
 {%- include head.html -%}
 
 <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7XRLQ3S"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+
   {%- include header.html -%}
 
   <main class="page-content" aria-label="Content">

@@ -19,16 +19,16 @@ website: https://tetrapod3dev.github.io
 darkmode: false
 
 # Social links
-# twitter_username: jekyllrb
+# twitter_username: 
 github_username:  tetrapod3dev
 # stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
+# dribbble_username: 
+# facebook_username: 
+# flickr_username: 
 instagram_username: tetrapod_3dev
 linkedin_username: taerok-park-952b92215
-# xing_username: jekyll
-# pinterest_username: jekyll
+# xing_username: 
+# pinterest_username: 
 youtube_username: Tetrapod3Dev
 # orcid_username: 0000-0000-0000-0000
 # googlescholar_username: D847cGsAAAAJ
@@ -44,7 +44,7 @@ additional_links:
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
+gtm: "GTM-W7XRLQ3S"
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
@@ -52,65 +52,106 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/taerok.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  안녕하세요. 저는 개발자 박태록입니다. 스타트업 개발자로 웹 챗봇에 대한 기술에 대해 다양한 경험이 있습니다. 
+  
+  개발과 3D 프린팅에 대한 제 관심은 저의 기술적 호기심을 자극하며, 지속적으로 새로운 지식을 탐색하고 있습니다.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+# Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+
+# You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+#   - Lists
+#   - Tables
+#   - <a href="google.com">Links</a>
+#   - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        border: weak
+        title: LG Global CS Chatbot
+        link: # 프로젝트 링크 (예시: https://example.com)
+        link_text: # 프로젝트 상세보기
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title: # Github 페이지
+            icon: # fab fa-github
+            url: # Github 프로젝트 링크 (예시: https://github.com/example)
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          17개국의 고객센터를 위한 챗봇 구축 및 배포 프로젝트.
+        description: |
+          2021년 3월부터 2023년 3월까지 LG Global의 고객 서비스 챗봇을 구축 및 유지보수하였습니다. 이 프로젝트는 다양한 국가의 고객들에게 최적화된 서비스를 제공하기 위한 것이었습니다.
+  
   - title: Experience
     layout: list
     content:
+      - layout: right
+        title: 대한민국 육군
+        sub_title: ROTC 장교
+        caption: 2017.03 - 2019.06
+        quote: >
+          군 복무를 통한 리더십 및 팀워크 능력 강화.
+        description: |
+          ROTC 장교로서의 복무 기간 동안 리더십, 팀 관리, 의사소통 및 위기 관리 능력을 키웠습니다. 이 경험은 제가 개인적으로나 전문적으로 성장하는 데 큰 도움이 되었습니다.
+
       - layout: right
         title: TPCG
         sub_title: AI-x Service Developement/ Consultant
         caption: 2020. 12 ~
         link: https://tpcg.co.kr
         quote: >
-          Short description of the company (optional)
+          글로벌 챗봇 서비스 개발 및 LLM 챗봇 아키텍처 연구.
         description: | # this will include new lines to allow paragraphs
-          글로벌 챗봇 서비스 구축
-          LLM 챗봇을 위한 아키텍쳐 연구 개발
+          TPCG에서 AI-x 서비스 개발자 및 컨설턴트로 활동하며 글로벌 챗봇 서비스 구축과 LLM 챗봇을 위한 아키텍처 연구 및 개발을 담당했습니다.
+
+  - title: Skill
+    layout: list
+    content:
+      - layout: left
+        name: Backend
+        description: | # this will include new lines to allow paragraphs
+          * Java, Python
+          * Spring Boot, Spring MVC, Spring Batch, Spring Security
+          * Gradle, Maven
+          * IntelliJ, WebStorm, Visual Studio Code
+      - layout: left
+        name: DevOps
+        description: | # this will include new lines to allow paragraphs
+          * MySQL
+          * GCE, GAE, MemoryStore (Redis), Cloud Run, Cloud Function, GKE
+          * Nginx, Tomcat
+      - layout: left
+        name: Frontend
+        description: | # this will include new lines to allow paragraphs
+          * ES6
+          * Npm
+          * JSP
+
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: 성균관대학교
+        sub_title: 시스템경영공학 및 컴퓨터공학 복수전공
+        caption: 2013.03 - 2017.02
         quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          대학교에서 시스템경영공학 및 컴퓨터공학을 복수전공하며 기술적 지식과 문제 해결 능력을 함양.
+        description: |
+          4년간의 대학 생활 동안 시스템경영공학과 컴퓨터공학에 대한 깊은 지식을 쌓았습니다. 이는 제가 IT 분야에서 다양한 문제를 해결하는 데 있어 튼튼한 기반을 마련해주었습니다.
+
+      - layout: top-right
+        title: 삼성 청년 SW 아카데미 (SSAFY)
+        sub_title: 소프트웨어 개발 교육
+        caption: 2020.01 - 2020.12
+        quote: >
+          체계적인 소프트웨어 개발 교육을 통한 실무 역량 강화.
+        description: |
+          SSAFY에서 1년간의 교육을 통해 실무에 필요한 소프트웨어 개발 능력을 강화했습니다. 다양한 프로젝트와 협업 경험을 통해 실제 업무 환경에서 요구되는 기술적, 협업적 능력을 키웠습니다.
+
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+    content: |
+      저는 기술에 대한 열정과 함께 다양한 취미를 즐깁니다. 최근에는 3D 프린팅에 대한 관심을 가지고 이 분야를 탐구하고 있습니다. 이러한 취미는 저에게 새로운 관점과 아이디어를 제공하며, 창의적인 문제 해결에 도움이 됩니다.
 
 # Footer
 footer_show_references: true
