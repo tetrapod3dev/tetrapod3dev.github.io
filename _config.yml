@@ -85,14 +85,15 @@ content:
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: TPCG
+        sub_title: AI-x Service Developement/ Consultant
+        caption: 2020. 12 ~
+        link: https://tpcg.co.kr
         quote: >
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          글로벌 챗봇 서비스 구축
+          LLM 챗봇을 위한 아키텍쳐 연구 개발
   - title: Education
     layout: list
     content:
