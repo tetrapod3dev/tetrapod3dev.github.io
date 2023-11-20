@@ -85,7 +85,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: 대한민국 육군
         sub_title: ROTC 장교
         caption: 2017.03 - 2019.06
@@ -94,7 +94,7 @@ content:
         description: |
           ROTC 장교로서의 복무 기간 동안 리더십, 팀 관리, 의사소통 및 위기 관리 능력을 키웠습니다. 이 경험은 제가 개인적으로나 전문적으로 성장하는 데 큰 도움이 되었습니다.
 
-      - layout: right
+      - layout: left
         title: TPCG
         sub_title: AI-x Service Developement/ Consultant
         caption: 2020. 12 ~
@@ -108,20 +108,20 @@ content:
     layout: list
     content:
       - layout: left
-        name: Backend
+        title: Backend
         description: | # this will include new lines to allow paragraphs
           * Java, Python
           * Spring Boot, Spring MVC, Spring Batch, Spring Security
           * Gradle, Maven
           * IntelliJ, WebStorm, Visual Studio Code
       - layout: left
-        name: DevOps
+        title: DevOps
         description: | # this will include new lines to allow paragraphs
           * MySQL
           * GCE, GAE, MemoryStore (Redis), Cloud Run, Cloud Function, GKE
           * Nginx, Tomcat
       - layout: left
-        name: Frontend
+        title: Frontend
         description: | # this will include new lines to allow paragraphs
           * ES6
           * Npm
@@ -130,7 +130,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: left
         title: 성균관대학교
         sub_title: 시스템경영공학 및 컴퓨터공학 복수전공
         caption: 2013.03 - 2017.02
@@ -139,7 +139,7 @@ content:
         description: |
           4년간의 대학 생활 동안 시스템경영공학과 컴퓨터공학에 대한 깊은 지식을 쌓았습니다. 이는 제가 IT 분야에서 다양한 문제를 해결하는 데 있어 튼튼한 기반을 마련해주었습니다.
 
-      - layout: top-right
+      - layout: left
         title: 삼성 청년 SW 아카데미 (SSAFY)
         sub_title: 소프트웨어 개발 교육
         caption: 2020.01 - 2020.12
