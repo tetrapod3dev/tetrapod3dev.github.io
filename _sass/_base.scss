@@ -149,20 +149,20 @@ p {
       }
     }
     .meta {
-      color: rgba(63, 70, 80, .6);
+      color: $text-grey;
       font-weight: 500;
       margin-bottom: 0px;
       margin-top: 0;
     }
     .time {
-      color: rgba(63, 70, 80, .6);
+      color: $text-grey;
       font-weight: 500;
       margin-bottom: 0px;
     }
   }
   .languages-container {
     .lang-desc {
-      color: rgba(63, 70, 80, .6);
+      color: $text-grey;
     }
   }
 
@@ -193,7 +193,7 @@ p {
   background: #fff;
   padding: 60px;
   .tagline {
-    color: rgba(63, 70, 80, .6);
+    color: $text-grey;
     font-size: 16px;
     font-weight: 400;
     margin-top: 0;
