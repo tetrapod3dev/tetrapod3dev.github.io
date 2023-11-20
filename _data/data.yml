@@ -1,0 +1,103 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: left # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: 박태록(Taerok Park)
+    tagline: Backend Developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: tetrapod3dev@gmail.com
+    phone: +82 010-2550-5388
+    timezone: Asia/Seoul Timezone
+    citizenship:
+    website: velog.io/@tetrapod3dev
+    linkedin: taerok-park-952b92215
+    github: tetrapod3dev
+    # pdf: http://www.africau.edu/images/default/sample.pdf
+
+    interests:
+      title: Interests
+      info:
+        - item: 3D Print
+          link:
+
+        - item: 책
+          link:
+
+career-profile:
+    title: Profile
+    summary: |
+      안녕하세요. 저는 개발자 박태록입니다. 스타트업 개발자로 웹 챗봇에 대한 기술에 대해 다양한 경험이 있습니다. 
+      개발과 3D 프린팅에 대한 제 관심은 저의 기술적 호기심을 자극하며, 지속적으로 새로운 지식을 탐색하고 있습니다.
+education:
+    title: Education
+    info:
+      - degree: 수료
+        university: 삼성 청년 SW 아카데미 (SSAFY)
+        time: 2020.01 - 2020.12
+        details: |
+          SSAFY에서 1년간의 교육을 통해 Java를 기반으로 실무에 필요한 소프트웨어 개발 능력을 강화했습니다. 
+          다양한 프로젝트와 협업 경험을 통해 실제 업무 환경에서 요구되는 기술적, 협업적 능력을 키웠습니다.
+      - degree: 시스템경영공학과, 컴퓨터공학과 학사
+        university: 성균관대학교
+        time: 2013 - 2017
+        details: |
+          시스템경영공학과에서 수리 통계, 데이터 마이닝 및 경영공학에 대해 배웠으며 최적화에 대해 깊이있게 다뤘습니다.
+          컴퓨터공학에서 운영체제, 개발에 대한 전반에 대해 배웠습니다. 
+
+experiences:
+    title: Experiences
+    info:
+      - role: AI-x Service Developement/ Consultant
+        time: 2020.12 ~ 현재
+        company: TPCG
+        details: |
+            - TPCG에서 AI-x 서비스 개발자 및 컨설턴트로 활동
+            - 챗봇 서비스 개발 담당
+            - LLM 챗봇을 위한 아키텍처 연구 및 개발
+      - role: 중위
+        time: 2017.03 - 2019.06
+        company: 28사단 정보통신대대
+        details: |
+          ROTC 장교로서의 복무 기간 동안 리더십, 팀 관리, 의사소통 및 위기 관리 능력을 키웠습니다.
+
+certifications:
+      title: Certifications
+      list:
+        - name: 정보처리기사
+          start: 2016
+          organization: 한국산업인력공단(HRD Korea)
+          credentialid: 16202100712S
+
+projects:
+    title: Projects
+    intro: >
+      You can list your side projects in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: LG Global CS Chatbot
+        tagline: "2021년 3월부터 2023년 3월까지 LG Global의 고객 센터 챗봇을 17개 나라에 구축 및 유지보수했습니다. 글로벌 법인별 인공지능(A.I) 챗봇을 구축하여 현지 고객 문의 지원, 센터 안내, 상담원 연동 등을 위한 기능 개발했습니다."
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Java & Spring
+
+      - name: Spring Boot, Spring MVC, Spring Batch, Spring Security
+
+      - name: MySQL, MyBatis
+
+      - name: JSP, Javascript, HTML5, CSS
+
+      - name: GCP(GCE, GAE, GKE, Cloud Run, Cloud Function)
+
+      - name: Dialogflow

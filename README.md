@@ -1,5 +1,5 @@
 # 박태록(Taerok Park)의 이력서 페이지
-박태록의 개발자로서의 경력과 기술을 소개하기 위한 개인 이력서 페이지입니다. 이 페이지는 GitHub Pages와 Jekyll 테마 ([modern-resume-theme](https://github.com/sproogen/modern-resume-theme))를 활용하여 제작되었습니다.
+박태록의 개발자로서의 경력과 기술을 소개하기 위한 개인 이력서 페이지입니다. 이 페이지는 GitHub Pages와 Jekyll 테마 ([online-cv](https://github.com/sharu725/online-cv))를 활용하여 제작되었습니다.
 
 이 사이트는 저의 프로그래밍 언어, 프레임워크, 데이터베이스 관리 능력 등을 포함한 기술적 역량을 보여주며, 지속적인 학습과 개발 과정을 나타냅니다. 또한, 다양한 소셜 미디어 플랫폼에 대한 나의 활동을 하나의 공간에서 통합하여 보여줍니다.
 

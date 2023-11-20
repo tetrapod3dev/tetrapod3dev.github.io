@@ -1,33 +1,10 @@
-<div class="container intro-container">
-  <h3 id="{{ site.about_title | slugify | default: 'about-me' }}">{{ site.about_title | default:
-  "About Me" }}</h3>
-  <div class="row clearfix">
-    {%- if site.about_profile_image -%}
-      <div class="col-xs-12 col-sm-4 col-md-3 no-print">
-        {%- if site.about_profile_image_shape == "squircle" -%}
-          <span class="profile-img squircle">
-            <svg class="svg-profile" viewBox="0 0 88 88" preserveAspectRatio="xMidYMid meet">
-              <defs>
-                <path id="shapeSquircle" d="M44,0 C76.0948147,0 88,11.9051853 88,44 C88,76.0948147 76.0948147,88 44,88 C11.9051853,88 0,76.0948147 0,44 C0,11.9051853 11.9051853,0 44,0 Z"></path>
-                <clipPath id="clipSquircle">
-                  <use xlink:href="#shapeSquircle"/>
-                </clipPath>
-              </defs>
-
-              <image width="100%" 
-                    height="100%" 
-                    preserveAspectRatio="xMidYMid slice"
-                    clip-path="url(#clipSquircle)"
-                    xlink:href="{{ site.about_profile_image | relative_url }}"/>
-            </svg>
-          </span>
-        {% else %}
-          <span class="profile-img circle" style="background-image: url({{ site.about_profile_image | relative_url }})"></span>
-        {%- endif -%}
-      </div>
-    {%- endif -%}
-    <div class="{{ 'col-xs-12 ' }}{%- if site.about_profile_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
-      {{ site.about_content | strip | markdownify }}
-    </div>
-  </div>
-</div>
+<div class="remove-container container-block">
+  <h2 class="container-block-title">
+    About Theme
+  </h2>
+  <ul class="list-unstyled interests-list">
+    <li><a target="_blank" href="https://www.youtube.com/watch?v=Jnmj1dXDbNk">How to use?</a></li>
+     <li><a class="github-button" href="https://github.com/sharu725/online-cv" data-icon="octicon-star" data-show-count="true" aria-label="Star sharu725/online-cv on GitHub">Star</a>
+     <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </ul>
+</div><!--//About-->

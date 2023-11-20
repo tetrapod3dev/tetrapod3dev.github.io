@@ -1,194 +1,36 @@
-# Site
-repository: tetrapod3dev/tetrapod3dev.github.io
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+#Update all the sections by editing the data.yml file inside _data folder.
 
-# Content configuration version
-version: 2
+# Site Settings
+title: "박태록(Taerok Park) | Backend developer"
+url: 'https://tetrapod3dev.github.io'
 
-# Personal info
-name: 박태록(Taerok Park)
-title: Backend developer
-email: tetrapod3dev@gmail.com
-# email_title: Email (Email title override)
-# phone: 
-# phone_title: Phone (Phone title override)
-website: https://tetrapod3dev.github.io
-# website_title: Web (Website title override)
+#change it according to your repository name
+# disabling since we are using a custom domain
+#baseurl: '/online-cv' 
 
-# Dark Mode (true/false/never)
-darkmode: false
+description: 안녕하세요 개발자 박태록입니다.
+# Style will be applied only after restarting the build or serve. Just choose one of the options.
+theme_skin: line # blue turquoise green berry orange ceramic
+chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
-# Social links
-# twitter_username: 
-github_username:  tetrapod3dev
-# stackoverflow_username: "00000001"
-# dribbble_username: 
-# facebook_username: 
-# flickr_username: 
-instagram_username: tetrapod_3dev
-linkedin_username: taerok-park-952b92215
-# xing_username: 
-# pinterest_username: 
-youtube_username: Tetrapod3Dev
-# orcid_username: 0000-0000-0000-0000
-# googlescholar_username: D847cGsAAAAJ
+# Tracker
+analytics: G-8ZXMRXCZGS
 
-# Additional icon links
-additional_links:
-# - title: Link name
-#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-gtm: "GTM-W7XRLQ3S"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: images/taerok.jpeg
-about_profile_image_shape: squircle
-about_content: | # this will include new lines to allow paragraphs
-  안녕하세요. 저는 개발자 박태록입니다. 스타트업 개발자로 웹 챗봇에 대한 기술에 대해 다양한 경험이 있습니다. 
-  
-  개발과 3D 프린팅에 대한 제 관심은 저의 기술적 호기심을 자극하며, 지속적으로 새로운 지식을 탐색하고 있습니다.
-
-# Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-# You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-#   - Lists
-#   - Tables
-#   - <a href="google.com">Links</a>
-#   - Images ![alt text](/images/landscape-trees.jpg "Trees")
-
-content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak
-        title: LG Global CS Chatbot
-        caption: 2021.03 - 2023.03
-        link: # 프로젝트 링크 (예시: https://example.com)
-        link_text: # 프로젝트 상세보기
-        additional_links:
-          - title: # Github 페이지
-            icon: # fab fa-github
-            url: # Github 프로젝트 링크 (예시: https://github.com/example)
-        quote: >
-          17개국의 고객센터를 위한 챗봇 구축 및 배포 프로젝트.
-        description: |
-          * 2021년 3월부터 2023년 3월까지 LG Global의 고객 서비스 챗봇을 구축 및 유지보수
-          * Google Cloud Platform의 Dialogflow 기반 AI 챗봇 바탕으로 진행
-          * 글로벌 법인별 인공지능(A.I) 챗봇을 구축하여 현지 고객 문의 지원, 센터 안내, 상담원 연동 등을 위한 기능 개발
-  
-  - title: Experience
-    layout: list
-    content:
-      - layout: left
-        title: 대한민국 육군
-        sub_title: ROTC 장교
-        caption: 2017.03 - 2019.06
-        quote: >
-          군 복무를 통한 리더십 및 팀워크 능력 강화.
-        description: |
-          ROTC 장교로서의 복무 기간 동안 리더십, 팀 관리, 의사소통 및 위기 관리 능력을 키웠습니다.
-
-      - layout: left
-        title: TPCG
-        sub_title: AI-x Service Developement/ Consultant
-        caption: 2020. 12 ~ 현재
-        link: https://tpcg.co.kr
-        quote: >
-          글로벌 챗봇 서비스 개발 및 LLM 챗봇 아키텍처 연구.
-        description: | # this will include new lines to allow paragraphs
-          * TPCG에서 AI-x 서비스 개발자 및 컨설턴트로 활동
-          * 챗봇 서비스 개발 담당
-          * LLM 챗봇을 위한 아키텍처 연구 및 개발
-
-  - title: Skill
-    layout: list
-    content:
-      - layout: left
-        title: Backend
-        description: | # this will include new lines to allow paragraphs
-          * Java, Python
-          * Spring Boot, Spring MVC, Spring Batch, Spring Security
-          * Gradle, Maven
-          * IntelliJ, WebStorm, Visual Studio Code
-      - layout: left
-        title: DevOps
-        description: | # this will include new lines to allow paragraphs
-          * MySQL
-          * GCE, GAE, MemoryStore (Redis), Cloud Run, Cloud Function, GKE
-          * Nginx, Tomcat
-      - layout: left
-        title: Frontend
-        description: | # this will include new lines to allow paragraphs
-          * ES6
-          * Npm
-          * JSP
-
-  - title: Education
-    layout: list
-    content:
-      - layout: left
-        title: 성균관대학교
-        sub_title: 시스템경영공학 및 컴퓨터공학 복수전공
-        caption: 2013.03 - 2017.02
-        quote: >
-          대학교에서 시스템경영공학 및 컴퓨터공학을 복수전공하며 기술적 지식과 문제 해결 능력을 함양.
-        description: |
-          시스템경영공학과에서 수리 통계, 데이터 마이닝 및 경영공학에 대해 배웠으며 최적화에 대해 깊이있게 다뤘습니다.
-
-          컴퓨터공학에서 운영체제, 개발에 대한 전반에 대해 배웠습니다. 
-
-      - layout: left
-        title: 삼성 청년 SW 아카데미 (SSAFY)
-        sub_title: 소프트웨어 개발 교육
-        caption: 2020.01 - 2020.12
-        quote: >
-          체계적인 소프트웨어 개발 교육을 통한 실무 역량 강화.
-        description: |
-          SSAFY에서 1년간의 교육을 통해 Java를 기반으로 실무에 필요한 소프트웨어 개발 능력을 강화했습니다. 
-
-          다양한 프로젝트와 협업 경험을 통해 실제 업무 환경에서 요구되는 기술적, 협업적 능력을 키웠습니다.
-
-  - title: A Little More About Me
-    layout: text
-    content: |
-      저는 기술에 대한 열정과 함께 다양한 취미를 즐깁니다. 최근에는 3D 프린팅에 대한 관심을 가지고 이 분야를 탐구하고 있습니다. 
-      
-      이러한 취미는 저에게 새로운 관점과 아이디어를 제공하며, 창의적인 문제 해결에 도움이 됩니다.
-
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
-
+# Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-plugins:
- - jekyll-seo-tag
+# Build settings
+compress-site: yes
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
+
+# Development Settings
+port: 4000
+host: 0.0.0.0
+safe: false
