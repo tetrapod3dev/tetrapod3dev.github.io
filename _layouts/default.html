@@ -13,8 +13,8 @@
 
       <div class="profile-container">
     
-        {% if sidebar.avatar %}
-        <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+        {% if site.data.data.sidebar.avatar %}
+        <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ site.data.data.sidebar.avatar }}" alt="profile picture" />
         {% endif %}
     
       </div><!--//profile-container-->
@@ -25,12 +25,12 @@
 
       <div class="profile-container">
     
-        {% if sidebar.name %}
-        <h1 class="name">{{ sidebar.name }}</h1>
+        {% if site.data.data.sidebar.name %}
+        <h1 class="name">{{ site.data.data.sidebar.name }}</h1>
         {% endif %}
     
-        {% if sidebar.tagline %}
-        <h3 class="tagline">{{ sidebar.tagline }}</h3>
+        {% if site.data.data.sidebar.tagline %}
+        <h3 class="tagline">{{ site.data.data.sidebar.tagline }}</h3>
         {% endif %}
     
       </div><!--//profile-container-->
