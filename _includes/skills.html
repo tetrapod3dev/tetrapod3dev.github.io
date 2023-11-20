@@ -3,10 +3,6 @@
 <section class="skills-section section">
 
   <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
-    </span>
     {{ skills.title }}
   </h2>
 
@@ -17,10 +13,12 @@
 
       <h3 class="level-title">{{ skill.name }}</h3>
 
+      {% if skill.level %}
       <div class="level-bar">
         <div class="level-bar-inner" data-level="{{ skill.level }}">
         </div>
       </div><!--//level-bar-->
+      {% endif %}
 
     </div><!--//item-->
     {% endfor %}

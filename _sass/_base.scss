@@ -19,7 +19,7 @@ h6 {
 }
 
 a {
-  color: darken($theme-color, 15%);
+  color: #3F4650;
   &:hover {
     text-decoration: underline;
     color: darken($theme-color, 30%);
@@ -166,7 +166,7 @@ p {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color: darken($theme-color, 15%);
+    color: #3F4650;
     position: relative;
     margin-top: 0;
     margin-bottom: 20px;
@@ -218,7 +218,7 @@ p {
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 5px;
-    color: darken($theme-color, 15%);
+    color: #3F4650;
   }
   .projects-section {
     .intro {
