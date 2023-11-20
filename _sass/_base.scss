@@ -59,14 +59,17 @@ p {
     background-color: black;
   }
 }
-.b-wrapper .main-wrapper::after {
-  content: '';
-  position: absolute;
-  top: 10%;
-  left: 0;
-  height: 80%;
-  width: 1px;
-  background-color: black;
+.b-wrapper .main-wrapper{
+  position: relative;
+  ::after {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 0;
+    height: 80%;
+    width: 1px;
+    background-color: black;
+  }
 }
 
 .sidebar-wrapper {
