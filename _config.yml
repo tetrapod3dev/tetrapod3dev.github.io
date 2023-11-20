@@ -51,6 +51,7 @@ gtm: "GTM-W7XRLQ3S"
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/taerok.jpeg
+about_profile_image_shape: squircle
 about_content: | # this will include new lines to allow paragraphs
   안녕하세요. 저는 개발자 박태록입니다. 스타트업 개발자로 웹 챗봇에 대한 기술에 대해 다양한 경험이 있습니다. 
   
