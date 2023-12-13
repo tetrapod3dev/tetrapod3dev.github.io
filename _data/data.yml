@@ -19,7 +19,8 @@ sidebar:
     citizenship:
     website: velog.io/@tetrapod3dev
     linkedin: taerok-park-952b92215
-    stack-overflow: 22925578
+    stack-overflow-id: 22925578 
+    stack-overflow-name: Tetrapod 3 Dev # if it is blank, show id
     github: tetrapod3dev
     # pdf: http://www.africau.edu/images/default/sample.pdf
 
@@ -45,7 +46,7 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: 수료
+      - degree: SSAFY 3기 수료
         university: 삼성 청년 SW 아카데미 (SSAFY)
         time: 2020.01 - 2020.12
         details: |
